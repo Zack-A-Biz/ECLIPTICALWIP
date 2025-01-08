@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "eclipticalmod",
+	"version": "${version}",
+	"name": "Ecliptical Mod",
+	"description": "Mods for Season 2 of the Ecliptial Server",
+	"authors": [
+		"Squidknee"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/eclipticalmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.squidknee.eclipticalmod.EclipticalMod"
+		],
+		"fabric-datagen": [
+			"net.squidknee.eclipticalmod.EclipticalModDataGenerator"
+		],
+		"client": [
+			"net.squidknee.eclipticalmod.EclipticalModClient"
+		]
+	},
+	"mixins": [
+		"eclipticalmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
