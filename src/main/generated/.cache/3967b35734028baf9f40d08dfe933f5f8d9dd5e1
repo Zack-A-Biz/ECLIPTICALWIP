@@ -1,4 +1,4 @@
-// 1.21.1	2025-01-11T22:19:05.9763195	Ecliptical Mod/Model Definitions
+// 1.21.1	2025-01-24T16:45:57.3001219	Ecliptical Mod/Model Definitions
 6d89743b3b39edb0f4ab667de8f2d33c3ca428ea assets\eclipticalmod\models\item\gamma_pin.json
 708e9c25a743b1ad90ef3279b14aab80a5ce0db6 assets\eclipticalmod\models\item\edge_badge.json
 c78e8d59878fd050f2b542146bf6f5d1266f22bb assets\eclipticalmod\models\item\dust_badge.json
@@ -11,6 +11,7 @@ ce958cd282c623494a61660293da332d62894925 assets\eclipticalmod\models\item\indust
 5525ab459f5f1f1891d0a7a67cb2ea4fae599f3a assets\eclipticalmod\models\item\harmony_badge.json
 4c9c5d078db1c1eddba59f2bf62d56dddf42a23c assets\eclipticalmod\models\item\monarch_charm.json
 24db09e6f5e331e97379663f972712bde1150ff7 assets\eclipticalmod\models\item\goldgear_card.json
+7b021504a7a327aa6816d4ce07ff94aa6f0dcd99 assets\eclipticalmod\blockstates\slotmachine.json
 d3c8ad75bec4dce21255be994ddfb87d1c933d40 assets\eclipticalmod\models\item\casino_coin.json
 e66b5e1e1ab2beff1f10740ef81f5f73532c104e assets\eclipticalmod\models\item\atlas_badge.json
 b70ea1fa5c024839bae20e32c4f5aaf9a7ec8988 assets\eclipticalmod\models\item\blackjack_deck.json
@@ -26,11 +27,13 @@ d325ec10a3e481443eda7b2ab533e84c351096e3 assets\eclipticalmod\models\item\tranqu
 edefecc273fd0355829ff9cd7b43dc799b226dc7 assets\eclipticalmod\models\item\mineral_badge.json
 4f48abab2e3fc4c801a6a3a437a242cb7bd88c0b assets\eclipticalmod\models\item\enc_unc_voucher.json
 527aa20b0ec877811da31e9630feac5892149951 assets\eclipticalmod\models\item\disc_badge.json
+f8f43184f133389422e5392e93d8d46a9a40fe66 assets\eclipticalmod\models\item\slotmachine.json
 f37a002a69ebf76d7b89e31fb38978f759828351 assets\eclipticalmod\models\item\lean_card.json
 1b24e836dca53e2bbf411bb09691f4c300fb421f assets\eclipticalmod\models\item\treasure_badge.json
+dc13610135a4571c8a827cbf81de720efaa066bc assets\eclipticalmod\models\item\aura.json
 46781940dbec462c9e33f2ba56c7009588eeab15 assets\eclipticalmod\models\item\sear_badge.json
 d59cb4620a0203a71d1415951c3f8de7dde6308a assets\eclipticalmod\models\item\enc_com_voucher.json
 3f231599408d7449a4740f79235797aefb5f0f96 assets\eclipticalmod\models\item\yuki_badge.json
 bae4d9c11282d61b58309f8c5d197669bb17954e assets\eclipticalmod\models\item\enc_ult_voucher.json
-cc89dfefc6720a7b955896d94e2233adbcff7f01 assets\eclipticalmod\models\item\casino_card.json
 aa22ec3d87e69f8ecbd74d7ed8486c29dfda8317 assets\eclipticalmod\models\item\ranger_card.json
+cc89dfefc6720a7b955896d94e2233adbcff7f01 assets\eclipticalmod\models\item\casino_card.json

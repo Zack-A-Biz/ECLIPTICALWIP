@@ -5,6 +5,8 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.Item;
+import net.squidknee.eclipticalmod.Block.ModBlocks;
 import net.squidknee.eclipticalmod.Item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -14,9 +16,8 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SLOTMACHINE);
     }
-
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.ACID, Models.GENERATED);
@@ -54,5 +55,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TREASURE, Models.GENERATED);
         itemModelGenerator.register(ModItems.VIPRANGERCARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.YUKI, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AURA, Models.GENERATED);
+        itemModelGenerator.register(Item.fromBlock(ModBlocks.SLOTMACHINE), Models.GENERATED);
+
     }
 }

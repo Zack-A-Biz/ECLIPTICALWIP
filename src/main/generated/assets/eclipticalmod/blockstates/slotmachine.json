@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "eclipticalmod:block/slotmachine",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "eclipticalmod:block/slotmachine"
+    },
+    "facing=south": {
+      "model": "eclipticalmod:block/slotmachine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "eclipticalmod:block/slotmachine",
+      "y": 270
+    }
+  }
+}

@@ -48,6 +48,8 @@ public class ModItems {
     public static final Item GAMMAPIN = registerItem("gamma_pin", new Item(new Item.Settings()));
     public static final Item CANNONPIN = registerItem("cannon_pin", new Item(new Item.Settings()));
 
+    public static final Item AURA = registerItem("aura", new Item(new Item.Settings()));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(EclipticalMod.MOD_ID, name), item);
     }

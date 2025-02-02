@@ -1,22 +1,22 @@
 {
-  "item.eclipticalmod.atlas_badge": "Atlas",
-  "item.eclipticalmod.acid_badge": "Acid",
-  "item.eclipticalmod.combat_badge": "Combat",
-  "item.eclipticalmod.current_badge": "Current",
-  "item.eclipticalmod.disc_badge": "Disc",
-  "item.eclipticalmod.distortion_badge": "Distortion",
-  "item.eclipticalmod.dust_badge": "Dust",
-  "item.eclipticalmod.edge_badge": "Edge",
-  "item.eclipticalmod.harmony_badge": "Harmony",
-  "item.eclipticalmod.industrial_badge": "Industrial",
-  "item.eclipticalmod.jet_badge": "Jet",
-  "item.eclipticalmod.mineral_badge": "Mineral",
-  "item.eclipticalmod.sear_badge": "Sear",
-  "item.eclipticalmod.slice_badge": "Slice",
-  "item.eclipticalmod.splash_badge": "Splash",
-  "item.eclipticalmod.tranquil_badge": "Tranquil",
-  "item.eclipticalmod.treasure_badge": "Treasure",
-  "item.eclipticalmod.yuki_badge": "Yuki",
+  "item.eclipticalmod.atlas_badge": "§5Atlas",
+  "item.eclipticalmod.acid_badge": "§5Acid",
+  "item.eclipticalmod.combat_badge": "§5Combat",
+  "item.eclipticalmod.current_badge": "§5Current",
+  "item.eclipticalmod.disc_badge": "§5Disc",
+  "item.eclipticalmod.distortion_badge": "§5Distortion",
+  "item.eclipticalmod.dust_badge": "§5Dust",
+  "item.eclipticalmod.edge_badge": "§5Edge",
+  "item.eclipticalmod.harmony_badge": "§5Harmony",
+  "item.eclipticalmod.industrial_badge": "§5Industrial",
+  "item.eclipticalmod.jet_badge": "§5Jet",
+  "item.eclipticalmod.mineral_badge": "§5Mineral",
+  "item.eclipticalmod.sear_badge": "§5Sear",
+  "item.eclipticalmod.slice_badge": "§5Slice",
+  "item.eclipticalmod.splash_badge": "§5Splash",
+  "item.eclipticalmod.tranquil_badge": "§5Tranquil",
+  "item.eclipticalmod.treasure_badge": "T§5reasure",
+  "item.eclipticalmod.yuki_badge": "§5Yuki",
 
   "item.eclipticalmod.enc_com_voucher": "Common Encounter Voucher",
   "item.eclipticalmod.enc_rare_voucher": "Rare Encounter Voucher",
@@ -39,6 +39,10 @@
 
   "item.eclipticalmod.gamma_pin": "Gamma Pin",
   "item.eclipticalmod.cannon_pin": "Cannon Pin",
+
+  "item.eclipticalmod.aura": "Aura Coin",
+
+  "block.eclipticalmod.slotmachine": "Slot Machine",
 
   "itemgroup.eclipticalmod.ecliptical": "Ecliptical"
 }

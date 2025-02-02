@@ -2,6 +2,7 @@ package net.squidknee.eclipticalmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.squidknee.eclipticalmod.Block.ModBlocks;
 import net.squidknee.eclipticalmod.Item.ModItemGroups;
 import net.squidknee.eclipticalmod.Item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class EclipticalMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

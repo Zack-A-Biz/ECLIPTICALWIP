@@ -49,21 +49,21 @@ public class Blackjack extends Item {
         if (currentTime - lastUsed < COOLDOWN_TICKS) {
             user.sendMessage(Text.literal("This item is still on cooldown!"), false);
             return TypedActionResult.fail(itemStack); // Fail if cooldown has not elapsed
-        }
+        }else {
+            // Check if there are cards left in the deck
+            if (cardsLeft(nbt) > 0) {
+                String card = drawCard(nbt); // Draw a card from the deck
+                user.sendMessage(Text.literal("You drew: " + card), false);
+                user.sendMessage(Text.literal("Cards left in deck: " + cardsLeft(nbt)), false);
 
-        // Check if there are cards left in the deck
-        if (cardsLeft(nbt) > 0) {
-            String card = drawCard(nbt); // Draw a card from the deck
-            user.sendMessage(Text.literal("You drew: " + card), false);
-            user.sendMessage(Text.literal("Cards left in deck: " + cardsLeft(nbt)), false);
-
-            // Save the updated NBT back to the item
-            itemStack.set(DataComponentTypes.CUSTOM_DATA, NbtComponent.of(nbt)); // Save the modified NBT to the item
-            nbt.putLong("lastUsed", currentTime);
-            return TypedActionResult.success(itemStack); // Indicate successful use
-        } else {
-            user.sendMessage(Text.literal("No cards left in the deck!"), false);
-            return TypedActionResult.fail(itemStack); // Indicate failure because the deck is empty
+                // Save the updated NBT back to the item
+                itemStack.set(DataComponentTypes.CUSTOM_DATA, NbtComponent.of(nbt)); // Save the modified NBT to the item
+                nbt.putLong("lastUsed", currentTime);
+                return TypedActionResult.success(itemStack); // Indicate successful use
+            } else {
+                user.sendMessage(Text.literal("No cards left in the deck!"), false);
+                return TypedActionResult.fail(itemStack); // Indicate failure because the deck is empty
+            }
         }
     }
 

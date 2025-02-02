@@ -1,6 +1,7 @@
 package net.squidknee.eclipticalmod.Item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.squidknee.eclipticalmod.Block.ModBlocks;
 import net.squidknee.eclipticalmod.EclipticalMod;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -51,6 +52,8 @@ public class ModItemGroups {
                         entries.add(ModItems.MONARCHCHARM);
                         entries.add(ModItems.GAMMAPIN);
                         entries.add(ModItems.CANNONPIN);
+                        entries.add(ModItems.AURA);
+                        entries.add(ModBlocks.SLOTMACHINE);
                     }).build());
     public static void registerItemGroups(){
         EclipticalMod.LOGGER.info("Registering Item Groups for " + EclipticalMod.MOD_ID);
