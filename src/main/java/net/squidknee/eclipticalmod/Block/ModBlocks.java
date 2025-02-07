@@ -13,7 +13,7 @@ import net.squidknee.eclipticalmod.EclipticalMod;
 public class ModBlocks {
 
     public static final Block SLOTMACHINE = registerBlock("slotmachine",
-            new SlotMachine(AbstractBlock.Settings.create().nonOpaque()));
+            new SlotMachine(AbstractBlock.Settings.create().strength(1.5f).nonOpaque()));
 
     public static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
